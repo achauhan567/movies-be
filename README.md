@@ -7,19 +7,30 @@ To execute this project follow the below steps:
   4. execute command : "npm start" to start the project
 
 # Endpoints for this app are:
-  1. Movies :
-    a. For POST: http://localhost:5000/movies/
-    b. For GET by Id: http://localhost:5000/movies/{id}
-    c. For GET using param : http://localhost:5000/movies/
-    d. For PU by IdT : http://localhost:5000/movies/{id}
-    e. For DELETE by Id: http://localhost:5000/movies/{id}
+
+  Movies :
+  
+		a. For POST: http://localhost:5000/movies/
+		
+		b. For GET by Id: http://localhost:5000/movies/{id}
+		
+		c. For GET using param : http://localhost:5000/movies/
     
-  2.Genres :
-    a. For POST: http://localhost:5000/genres/
-    b. For GET by Id: http://localhost:5000/genres/{id}
-    c. For GET using param : http://localhost:5000/genres/
-    d. For PU by IdT : http://localhost:5000/genres/{id}
-    e. For DELETE by Id: http://localhost:5000/genres/{id}
+		d. For PU by IdT : http://localhost:5000/movies/{id}
+    
+		e. For DELETE by Id: http://localhost:5000/movies/{id}
+    
+  Genres :
+
+		a. For POST: http://localhost:5000/genres/
+    
+		b. For GET by Id: http://localhost:5000/genres/{id}
+    
+		c. For GET using param : http://localhost:5000/genres/
+    
+		d. For PU by IdT : http://localhost:5000/genres/{id}
+    
+		e. For DELETE by Id: http://localhost:5000/genres/{id}
  
 # Payload for POST & PUT Movies:
 
