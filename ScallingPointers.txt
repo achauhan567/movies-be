@@ -1,0 +1,6 @@
+-> Shardding of dbs by ids of movies only read replicas
+-> multiple instances of apps
+-> load balancer
+-> cache at db & app service(redis)
+-> nosql dbs like mongo
+-> pagination for get
