@@ -4,8 +4,10 @@ To execute this project follow the below steps:
   1. Setup mysql database & install node in your machine
   2. Then execute dbschema.sql (present in project) in mysql db
   3. Test DB credentials are present in config.js
-  4. execute following commands :	"npm install" to add node modules
-  					"npm start" to start the project
+  4. execute following commands :
+ 	
+  				-"npm install" to add node modules
+  				-"npm start" to start the project
 
 # Endpoints for this app are:
 
