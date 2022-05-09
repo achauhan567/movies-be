@@ -37,20 +37,21 @@ To execute this project follow the below steps:
  
 # Payload for POST & PUT Movies:
 
-{
-"name": "MOVIE_NAME",
-"director": "DIRECTOR_NAME",
-"imdb_score": "6.6",
-"popularity": "66.00",
-"genre": [
-      "GENRE_1",
-      "GENRE_2",
-      "GENRE_3",
-      "GENRE_4"
-    ]
-}
+	{
+	"name": "MOVIE_NAME",
+	"director": "DIRECTOR_NAME",
+	"imdb_score": "6.6",
+	"popularity": "66.00",
+	"genre": [
+      		"GENRE_1",
+      		"GENRE_2",
+      		"GENRE_3",
+      		"GENRE_4"
+    		]
+	}
 
 # Payload for POST & PUT Genres:
-{
-"name": "GENRE_NAME"
-}
+
+	{
+	"name": "GENRE_NAME"
+	}
