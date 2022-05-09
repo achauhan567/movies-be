@@ -8,7 +8,7 @@ genrerouter.post("/", genres.addGenres);
 // GET genres 
 genrerouter.get("/", genres.getGenres);
 
-// GET genres 
+// GET genres by id
 genrerouter.get("/:id", genres.getGenreById);
 
 // PUT genres 
