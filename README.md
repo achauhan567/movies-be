@@ -8,6 +8,7 @@ To execute this project follow the below steps:
  	
   				"npm install" to add node modules
   				"npm start" to start the project
+				"npm test" to run test of apis
 
 # Endpoints for this app are:
 
