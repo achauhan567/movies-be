@@ -6,8 +6,8 @@ To execute this project follow the below steps:
   3. Test DB credentials are present in config.js
   4. execute following commands :
  	
-  				-"npm install" to add node modules
-  				-"npm start" to start the project
+  				"npm install" to add node modules
+  				"npm start" to start the project
 
 # Endpoints for this app are:
 
