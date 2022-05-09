@@ -8,7 +8,7 @@ To execute this project follow the below steps:
  	
   				"npm install" to add node modules
   				"npm start" to start the project
-				"npm test" to run test of apis
+				"npm test" to run test on apis
 
 # Endpoints for this app are:
 
@@ -20,7 +20,7 @@ To execute this project follow the below steps:
 		
 		c. For GET using param : http://localhost:5000/movies/
     
-		d. For PU by IdT : http://localhost:5000/movies/{id}
+		d. For PUT by Id : http://localhost:5000/movies/{id}
     
 		e. For DELETE by Id: http://localhost:5000/movies/{id}
     
@@ -32,7 +32,7 @@ To execute this project follow the below steps:
     
 		c. For GET using param : http://localhost:5000/genres/
     
-		d. For PU by IdT : http://localhost:5000/genres/{id}
+		d. For PUT by Id : http://localhost:5000/genres/{id}
     
 		e. For DELETE by Id: http://localhost:5000/genres/{id}
  
