@@ -2,12 +2,13 @@
   "name": "movies-be",
   "version": "0.0.1",
   "description": "RESTful API for movies",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "main": "src"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js",
+    "test": "jest --forceExit"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "mysql2": "^2.3.3"
+    "jest": "^28.1.0",
+    "mysql2": "^2.3.3",
+    "supertest": "^6.2.3"
   }
 }

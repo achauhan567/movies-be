@@ -4,13 +4,13 @@ const Movie = function (movie) {
     this.name = movie.name;
     this.director = movie.director;
     this.popularity = movie.popularity;
-    this.imdbscore = movie.imdb_score;
+    this.imdb_score = movie.imdb_score;
 };
 
 //add new movie to db
 Movie.add = async (newMovie, result) => {
     try {
-        const output = await db.query("INSERT INTO movies(name, director, popularity, imdb_score) value(?,?,?,?)", [newMovie.name, newMovie.director, newMovie.popularity, newMovie.imdbscore]);
+        const output = await db.query("INSERT INTO movies(name, director, popularity, imdb_score) value(?,?,?,?)", [newMovie.name, newMovie.director, newMovie.popularity, newMovie.imdb_score]);
 
         if (output.affectedRows) {
             result(null, {id: output.insertId, ...newMovie});
@@ -59,7 +59,7 @@ Movie.getMovieById = async (id, result) => {
 //update movie by id
 Movie.updateById = async (id, movie, result) => {
     try {
-        const output = await db.query("UPDATE movies SET name = ? , director= ?, popularity = ?, imdb_score = ? WHERE id = ?", [movie.name, movie.director, movie.popularity, movie.imdbscore, id]);
+        const output = await db.query("UPDATE movies SET name = ? , director= ?, popularity = ?, imdb_score = ? WHERE id = ?", [movie.name, movie.director, movie.popularity, movie.imdb_score, id]);
 
         if (output.affectedRows == 0) {
             result({ type: "not_found" }, null);

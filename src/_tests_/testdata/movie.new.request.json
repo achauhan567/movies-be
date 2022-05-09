@@ -1,0 +1,12 @@
+{
+    "name": "Test Movie",
+    "director": "Test Director",
+    "imdb_score": "6.6",
+    "popularity": "66.00",
+    "genre": [
+          "Adventure",
+          "Horror",
+          "Fantasy",
+          "Musical"
+        ]
+}

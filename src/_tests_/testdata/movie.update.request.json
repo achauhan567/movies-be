@@ -1,0 +1,12 @@
+{
+    "name": "Update Test Movie",
+    "director": "Update Test Director",
+    "imdb_score": "9.9",
+    "popularity": "99.00",
+    "genre": [
+          "Adventure",
+          "Horror",
+          "Fantasy",
+          "Thriller"
+        ]
+}

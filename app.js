@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 const moviesrouter = require("./src/routes/movies");
 const genresrouter = require("./src/routes/genres");
 
@@ -18,9 +17,5 @@ app.get("/", (req, res) => {
 app.use("/movies", moviesrouter);
 
 app.use("/genres", genresrouter);
-
-app.listen(port, () => {
-    console.log(`Movies app listening at http://localhost:${port}`);
-});
 
 module.exports = app;
